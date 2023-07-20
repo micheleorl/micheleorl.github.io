@@ -196,11 +196,17 @@ img {
 
 /* Active menu link */
 .active-link {
-  color: var(--title-color);
+  color: var(--title-color);/////////////
 }
 
 /* ========= HOME ========= */
+.home {
+  position: relative;
+}
 
+.home__container {
+  gap: 3rem;
+}
 
 /* ========= SOCIAL ========= */
 
