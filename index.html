@@ -55,7 +55,13 @@
 
                         <li class="nav__item">
                             <a href="#references" class="nav__link">
-                                <i class='bx bx-link-external nav__icon'></i>References
+                                <i class='bx bx-link-external nav__icon'></i>Referenze
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#privacy" class="nav__link">
+                                <i class='bx bx-shield nav__icon'></i>Privacy
                             </a>
                         </li>
 
@@ -70,7 +76,7 @@
         </header>
         <main class="l-main bd-container">
             <!-- All elements within this div, is generated in PDF -->
-            <div class="resume">
+            <div class="resume" id="area-cv">
 
                 <div class="resume__left">
 
@@ -78,40 +84,40 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
 
-                        <div class="home__data bd-grid">
-                            <img src="assets/img/profilo.jpg" alt="" class="home__img">
-                            <h1 class="home__title"><b>MICHELE</b> ORLANDO</h1>
-                            <h3 class="home__profession">Junior Web Developer</h3>
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/profilo.jpg" alt="" class="home__img">
+                                <h1 class="home__title"><b>MICHELE</b> ORLANDO</h1>
+                                <h3 class="home__profession">Junior Web Developer</h3>
 
-                            <!-- ========= Button to download the CV saved in the pdf folder. Available for desktop ========= -->
-                            <div>
-                                <a download="" href="assets/pdf/CV programatore_Michele Orlando_2023.pdf" class="home__button-mobile">Download</a>
+                                <!-- ========= Button to download the CV saved in the pdf folder. Available for desktop ========= -->
+                                <div>
+                                    <a download="" href="assets/pdf/Michele Orlando CV Dev.pdf" class="home__button-mobile">Download</a>
+                                </div>
+
                             </div>
 
+                            <div class="home__address bd-grid">
+
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i>Via Vernazza - Genova
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i>micheleorlando994@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i>+39 3283528794
+                                </span>
+
+                            </div>
+                            <!-- ========= Theme change button ========= -->
+                            <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+        
+                            <!-- ========= Button to generateand download the pdf. Available for desktop ========= -->
+                            <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
                         </div>
-
-                        <div class="home__address bd-grid">
-
-                            <span class="home__information">
-                                <i class='bx bx-map home__icon'></i>Via Vernazza - Genova
-                            </span>
-
-                            <span class="home__information">
-                                <i class='bx bx-envelope home__icon'></i>micheleorlando994@gmail.com
-                            </span>
-
-                            <span class="home__information">
-                                <i class='bx bx-phone home__icon'></i>+39 3283528794
-                            </span>
-
-                        </div>
-                        <!-- ========= Theme change button ========= -->
-                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
-    
-                        <!-- ========= Button to generateand download the pdf. Available for desktop ========= -->
                     </section>
-
-
 
                     <!-- ========= SOCIAL ========= -->
                     <section class="social section">
@@ -144,7 +150,7 @@
                         <h2 class="section-title">Presentazione</h2>
 
                         <p class="profile__description">
-                            L'universo della programmazione web mi appassiona profondamente. Ho sperimentato diverse tecnologie sia per il front-end che per il back-end e non vedo l'ora di continuare a esplorare e sviluppare le mie competenze in questo campo affascinante.
+                            Appassionato dell'universo della programmazione web. Ho sperimentato diverse tecnologie sia per il Front-end che per il Back-end e non vedo l'ora di continuare a esplorare e sviluppare le mie competenze.
                         </p>
                     </section>
 
@@ -186,6 +192,10 @@
                                     <span class="skills__circle"></span> Laravel
                                 </li>
 
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Java
+                                </li>
+
                             </ul>
                         </div>
                     </section>
@@ -202,7 +212,7 @@
                                     <span class="education__line"></span>
                                 </div>
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">Programmatore Java Mobile</h3>
+                                    <h3 class="education__title">Java Mobile</h3>
                                     <span class="education__studies">FormaMentis S.r.l.</span>
                                     <span class="education__year">06/2022 - 10/2022</span>
                                 </div>
@@ -227,7 +237,7 @@
                                     <!-- <span class="education__line"></span> -->
                                 </div>
                                 <div class="education__data bd-grid">
-                                    <h3 class="education__title">Tecnico Superiore per l'Automazione ed i Sistemi Meccatronici</h3>
+                                    <h3 class="education__title">Tecnico Superiore in Automazione Industriale</h3>
                                     <span class="education__studies"> ITS Sistema Meccanica</span>
                                     <span class="education__year">11/2014 - 10/2016</span>
                                 </div>
@@ -283,7 +293,7 @@
 
                             <div class="certificate__content">
                                 <h3 class="certificate__title">Boolean coding Week Plus - ChatGPT</h3>
-                                <p class="certificate__description">Due settimane di lezioni live con approfondimenti su HTML, CSS, JavaScript e ChatGPT 3.5 Turbo per costruire semplici web app con l'aiuto dell'intelligenza artificiale.</p>
+                                <p class="certificate__description">Due settimane di lezioni live con approfondimenti su HTML, CSS, JavaScript e ChatGPT per costruire web app con l'aiuto dell'intelligenza artificiale.</p>
                             </div>
                             
                             <div class="certificate__content">
@@ -293,7 +303,7 @@
 
                             <div class="certificate__content">
                                 <h3 class="certificate__title">Web & Social Media Marketing</h3>
-                                <p class="certificate__description">Corso online della durata di 240 ore in cui, grazie sopratutto al lavoro di gruppo, sono diventato competente nell'utilizzo dello strumento WordPress per la creazione di siti web a scopo commerciale.</p>
+                                <p class="certificate__description">Corso incentrato sull'utilizzo dello strumento WordPress per la creazione di siti web a scopo commerciale.</p>
                             </div>
 
                         </div>
@@ -301,16 +311,22 @@
 
                     <!-- ========= REFERENCES ========= -->
                     <section class="references section" id="references">
-                        <h2 class="section-title">References</h2>
+                        <h2 class="section-title">Referenze</h2>
                         <div class="references__container bd-grid">
 
                             <div class="references__content bd-grid">
                                 <span class="references__subtitle">MyPass S.r.l.</span>
-                                <h3 class="references__title">CTO & COO</h3>
+                                <h3 class="references__title">CTO</h3>
                                 <ul class="references__contact">
-                                    <li>Telefono: Su richiesta</li>
-                                    <li>Email: Su richiesta</li>
-                                    <li></li>
+                                    <li>(Contatti forniti su richiesta)</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">MyPass S.r.l.</span>
+                                <h3 class="references__title">COO</h3>
+                                <ul class="references__contact">
+                                    <li>(Contatti forniti su richiesta)</li>
                                 </ul>
                             </div>
 
@@ -320,7 +336,6 @@
                                 <ul class="references__contact">
                                     <li>Phone: 1234567890</li>
                                     <li>Email: user@email.com</li>
-                                    <li></li>
                                 </ul>
                             </div> -->
 
@@ -347,7 +362,7 @@
 
                     <!-- ========= INTERESTS ========= -->
                     <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
+                        <h2 class="section-title">Interessi</h2>
                         <div class="interests__container bd-grid">
 
                             <div class="interests__content">
@@ -373,6 +388,18 @@
                         </div>
                     </section>
 
+                    <!-- ========= PRIVACY ========= -->
+                    <section class="privacy section" id="privacy">
+                        <h2 class="section-title">Privacy</h2>
+                        <div class="privacy__container bd-grid">
+
+                            <div class="privacy__content">
+                                <p class="privacy__description">Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base al Dlgs 196 del 30 giugno 2003 e all'art. 13 del GDPR.</p>
+                            </div>
+
+                        </div>
+                    </section>
+
                 </div>
 
             </div>
@@ -383,7 +410,7 @@
         </a>
 
         <!-- ========= HTML2PDF ========= -->
-        <script src=""></script>
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
 
         <!-- ========= MAIN JS ========= -->
         <script src="assets/js/main.js"></script>
